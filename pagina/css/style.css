@@ -1,0 +1,95 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+
+}
+body{
+  height: 100vh;
+
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+  }
+
+  
+  .fundoa{
+    background-color: #0055b8;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .fundoa img {
+    height: 50px;
+    margin-right: 15px;
+  }
+
+  .fundoa h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+
+  .menu-left {
+    display: flex;
+    gap: 25px;
+  }
+
+  .menu-left a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+  }
+
+  .menu-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  
+  .carro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+  }
+ 
+  .carro img {
+    max-width: 550px;
+    border-radius: 8px;
+  }
+
+  
+  .btn {
+    display: inline-block;
+    background: #262525;
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    background: #262525;
+  }
+
+  .btn-container {
+    text-align: center;
+    margin-bottom: 40px;
+  }
